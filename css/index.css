@@ -74,7 +74,7 @@ p {
 
 nav {
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-content: center;
     margin: 2.5%;
     align-items: center;
@@ -83,6 +83,11 @@ nav {
 nav img {
     position: left;
     
+}
+
+.bannerimg{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
 }
 nav a {
     color:black;
@@ -177,13 +182,14 @@ background-color: gold;
 
 
 
-.bottom-content {
+.bottom-content-home {
     display: flex;
+    flex-direction: row;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
 
-.bottom-content .text-container {
+.bottom-content-home .text-container {
     padding-right: 4%;
 }
 
@@ -209,3 +215,63 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ABOUT CSS */
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.midcontent1img{
+    display: flex;
+   justify-content: space-around;
+   margin-bottom: 2.5%;
+
+}
+
+.midcontenttext{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    border-bottom: 2px dotted black;
+    margin-bottom: 2.5%;
+}
+
+
+
+.midcontent1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.midcontent2{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.btn-container {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    
+}
+
+.btn-container p{
+    font-size: 16px;
+    
+}
+
+.bottom-content-about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
