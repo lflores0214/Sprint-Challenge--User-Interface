@@ -186,11 +186,11 @@ background-color: gold;
     display: flex;
     flex-direction: row;
     margin: 0 2% 20px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .bottom-content-home .text-container {
-    padding-right: 4%;
+    padding-right: 3%
 }
 
 .bottom-content .text-container:last-child {
